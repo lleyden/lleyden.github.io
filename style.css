@@ -94,3 +94,19 @@ footer {
     padding: 30px;
     margin-top: 50px;
 }
+
+/* FORCE CENTER TEXT EVERYWHERE */
+body, .container, .card, .grid, .section {
+    text-align: center;
+}
+
+/* Center grid content properly */
+.grid {
+    justify-items: center;
+}
+
+/* Optional: limit width of text so it still looks clean */
+.card p {
+    max-width: 700px;
+    margin: 0 auto;
+}
